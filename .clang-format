@@ -71,6 +71,4 @@ SpaceAfterCStyleCast: false
 IndentCaseLabels: true 
 #tab键盘的宽度
 TabWidth: 4
-UseTab: Never
-Ignore:
-  - '.*\.md'   
+UseTab: Never 

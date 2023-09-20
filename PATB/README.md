@@ -7,6 +7,7 @@
 **题目**        |               C++               | Python
 :------------ | :-----------------------------: | :----:
 1043 输出PATest | [patb_1043.cpp](patb_1043.cpp) |   Y
+1117 数字之王 | [patb_1117.cpp](patb_1117.cpp) |   Y
 
 ## 文字题解
 [1001 害死人不偿命的(3n+1)猜想 (15 分)](https://blog.csdn.net/SYaoJun/article/details/79554147)
