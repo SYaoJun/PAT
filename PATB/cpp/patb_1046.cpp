@@ -1,3 +1,8 @@
+/*
+1. 同赢和同输跳过
+2. 统计甲乙输掉的次数
+*/
+
 #include <cstdio>
 int main() {
     int N, a, ap, b, bp;

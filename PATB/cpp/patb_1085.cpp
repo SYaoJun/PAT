@@ -39,14 +39,14 @@ int main() {
         arr[mp[school]].stu++;           // 学校的学生数加加
     }
     sort(arr, arr + num, cmp);  // 对结构体数组进行排序
-    int mingci = 1;
+    int rank = 1;
     printf("%d\n1 ", num);  // 先输出了学校数和第一名的学校
     cout << arr[0].name;
     printf(" %d %d", (int)arr[0].score, arr[0].stu);
     for (int i = 1; i < num; i++) {                      // 从第二个学校开始的
         if ((int)arr[i].score != (int)arr[i - 1].score)  // 如果分数和前一个学校相同，当然mingci就行同了
-            mingci = i + 1;                              // 如果分数不同，那么名次正好等于i+1
-        printf("\n%d ", mingci);                         // 输出当前学校的信息
+            rank = i + 1;                                // 如果分数不同，那么名次正好等于i+1
+        printf("\n%d ", rank);                           // 输出当前学校的信息
         cout << arr[i].name;
         printf(" %d %d", (int)arr[i].score, arr[i].stu);
     }

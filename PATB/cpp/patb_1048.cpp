@@ -1,3 +1,8 @@
+/*
+1. 区分奇数位和偶数位，分别在对应位置上进行编码，注意位数编号从1开始。
+2. 为了让个位对齐，需要反转字符串。
+*/
+
 #include <cstdio>
 #include <cstring>
 void reverse(char s[]) {  // reverse反转字符串
