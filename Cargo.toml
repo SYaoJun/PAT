@@ -6,3 +6,7 @@ edition = "2021"
 [[bin]]
 name = "l1_093"
 path = "Team/l1_093.rs"
+
+[[bin]]
+name = "patb_1002"
+path = "PATB/rust/patb_1002.rs"
