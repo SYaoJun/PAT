@@ -1,0 +1,8 @@
+[package]
+name = "pat"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "l1_093"
+path = "Team/l1_093.rs"
