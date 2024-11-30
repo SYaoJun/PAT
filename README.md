@@ -32,7 +32,6 @@ python3 patb_1001.py
 ```
 
 ## Rust
-- 编译命令
 ```
 rustc patb_1001.rs
 ```
