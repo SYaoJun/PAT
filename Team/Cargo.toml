@@ -1,0 +1,64 @@
+[package]
+name = "pat-team"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[dev-dependencies]
+
+[target.'cfg(any())'.dependencies]
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+
+# For cargo fmt and clippy
+[package.metadata]
+
+# Binary targets for each Rust file
+[[bin]]
+name = "l1_074"
+path = "l1_074.rs"
+
+[[bin]]
+name = "l1_077"
+path = "l1_077.rs"
+
+[[bin]]
+name = "l1_081"
+path = "l1_081.rs"
+
+[[bin]]
+name = "l1_082"
+path = "l1_082.rs"
+
+[[bin]]
+name = "l1_084"
+path = "l1_084.rs"
+
+[[bin]]
+name = "l1_091"
+path = "l1_091.rs"
+
+[[bin]]
+name = "l1_092"
+path = "l1_092.rs"
+
+[[bin]]
+name = "l1_093"
+path = "l1_093.rs"
+
+[[bin]]
+name = "l1_097"
+path = "l1_097.rs"
+
+[[bin]]
+name = "l1_098"
+path = "l1_098.rs"
